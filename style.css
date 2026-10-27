@@ -193,6 +193,34 @@ span {
     justify-content: center;
     padding-bottom: 100px;
 }
+.btn1{
+    width: 300px;
+    background-color: #69B99D;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+}
+.ff{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.cv{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 150px;
+    background-color: #F9F9F9;
+    border-top: 3px solid #E4E4E4;
+    border-bottom: 3px solid #E4E4E4;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+}
 
 
 
@@ -272,6 +300,10 @@ span {
     }
     .dd{
         width: 300px;
+    }
+    .cv{
+        flex-direction: column;
+        gap: 50px;
     }
 
 }

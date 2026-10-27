@@ -60,6 +60,19 @@ section{
     border-bottom: 2px solid #E4E4E4;
     background-color: #F9F9F9;
 }
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.ka{
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 
 
@@ -94,5 +107,18 @@ section{
     }
     .k h1{
         font-weight: bolder;
+    }
+    .df{
+        margin-bottom: 100px;
+    }
+    .sec1{
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+    .ig{
+        width: 380px;
+    }
+    .S{
+        padding-top: 20px;
     }
 }

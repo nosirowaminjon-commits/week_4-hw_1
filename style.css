@@ -1,9 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
 }
-.div{
+
+.div {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,21 +13,26 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.ps{
+
+.ps {
     display: flex;
     align-items: center;
     gap: 40px;
 }
-.in{
+
+.in {
     color: #69B99D;
 }
-header{
+
+header {
     border-bottom: 2px solid #E4E4E4;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.df{
+
+.df {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,14 +41,17 @@ header{
     margin: 0 auto;
     gap: 200px;
 }
-.k h1{
+
+.k h1 {
     font-size: 35px;
     font-weight: bolder;
 }
-.k p{
+
+.k p {
     font-size: 15px;
 }
-.btn{
+
+.btn {
     width: 200px;
     background-color: #69B99D;
     height: 40px;
@@ -53,14 +62,16 @@ header{
 
 }
 
-.df{
+.df {
     padding-bottom: 20px;
 }
-section{
+
+section {
     border-bottom: 2px solid #E4E4E4;
     background-color: #F9F9F9;
 }
-.sec1{
+
+.sec1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,23 +80,28 @@ section{
     margin: 0 auto;
 
 }
-.ka{
+
+.ka {
     font-size: 30px;
     font-weight: bolder;
 }
-.h1{
+
+.h1 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
     padding-top: 100px;
 }
-span{
+
+span {
     color: #69B99D;
 }
-.p{
+
+.p {
     text-align: center;
 }
-.g{
+
+.g {
     border-bottom: 5px solid #69B99D;
     width: 320px;
     text-align: center;
@@ -93,76 +109,169 @@ span{
     box-shadow: 2px 2px 5px 5px #F3F3F3;
     border-radius: 3px;
 }
-.dg{
+
+.dg {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 50px 100px;
 }
 
-.gl{
+.gl {
     background-color: #F9F9F9;
 }
-.sec1{
+
+.sec1 {
     border-bottom: 3px solid #E4E4E4;
     padding-bottom: 20px;
 }
-.dg{
+
+.dg {
     max-width: 1200px;
     margin: 0 auto;
 }
-.sec2{
+
+.sec2 {
     background-color: #F9F9F9;
     border-bottom: 3px solid #E4E4E4;
     padding-bottom: 50px;
     margin-bottom: 100px;
 }
 
+.od {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.oo {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.dd {
+    border: 1px solid gray;
+    width: 400px;
+    padding: 40px;
+}
+
+.lk {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+
+}
+
+.dd {
+    border: 0;
+    box-shadow: 2px 2px 5px 5px #F3F3F3;
+
+}
+
+
+.dd1 {
+    border: 1px solid gray;
+    width: 400px;
+    padding: 40px;
+}
+.dd1 {
+    border: 0;
+    box-shadow: 2px 2px 5px 5px #F3F3F3;
+
+}
+.tch{
+    margin-left: 735px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
 
 
 
 
 
 
-@media (max-width: 500px){
-    .ps{
+
+
+
+
+
+
+@media (max-width: 500px) {
+    .ps {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: block !important;
         padding: 20px;
     }
-    .div{
+
+    .div {
         padding-left: 20px;
     }
-    .df{
+
+    .df {
         flex-direction: column-reverse;
         text-align: center;
         margin-bottom: 100px;
         gap: 20px;
     }
-    .img{
+
+    .img {
         width: 380px;
     }
-    .k h1{
+
+    .k h1 {
         font-weight: bolder;
     }
-    .df{
+
+    .df {
         margin-bottom: 100px;
     }
-    .sec1{
+
+    .sec1 {
         flex-direction: column;
         padding: 0px 20px;
     }
-    .ig{
+
+    .ig {
         width: 380px;
     }
-    .S{
+
+    .S {
         padding-top: 20px;
     }
-    .dg{
+
+    .dg {
         flex-direction: column;
         gap: 40px;
+    }
+
+    .lk {
+        flex-direction: column;
+    }
+    .dd1{
+        display: none;
+    }
+    .oo{
+        font-size: 27px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .lk{
+        padding: 50px;
+    }
+    .dd{
+        width: 300px;
     }
 
 }
